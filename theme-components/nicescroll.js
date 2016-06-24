@@ -2,7 +2,7 @@
 // It supports DIVs, IFrames, textarea, and document page (body) scrollbars
 // Activates with CSS class 'nicescroll'
 require('./jquery.js');
-require('../src/vendor/jquery.nicescroll.js');
+require('../vendor/jquery.nicescroll.js');
 !function($){
     "use strict";
     //You can change the color of scroll bar here

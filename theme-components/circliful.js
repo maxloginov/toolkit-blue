@@ -1,7 +1,7 @@
 // circliful - works, fully functional
 require('./jquery.js');
-require('../src/vendor/jquery.circliful.js');
-require('../src/vendor/jquery.circliful.css');
+require('../vendor/jquery.circliful.js');
+require('../vendor/jquery.circliful.css');
 !function($){
     "use strict";
     $('[data-plugin="circliful"]').each(function(idx, obj) {

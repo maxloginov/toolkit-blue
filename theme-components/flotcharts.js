@@ -8,5 +8,5 @@ require('flot-charts/jquery.flot.pie.js');
 require('flot-charts/jquery.flot.selection.js');
 require('flot-charts/jquery.flot.stack.js');
 require('flot-charts/jquery.flot.crosshair.js');
-require('../src/vendor/jquery.flot.tooltip.min.js');
+require('../vendor/jquery.flot.tooltip.min.js');
 process.env.NODE_ENV !== 'production' && console.log('- flotcharts loaded');
