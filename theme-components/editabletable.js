@@ -1,0 +1,5 @@
+// mindmup-editabletable - works, fully functional
+require('./jquery.js');
+require('./datatables.js');
+require('../src/vendor/mindmup-editabletable.js');
+process.env.NODE_ENV !== 'production' && console.log('- editabletable loaded');
