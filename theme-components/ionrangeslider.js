@@ -2,7 +2,6 @@
 require('./jquery.js');
 require('ion-rangeslider');
 require('ion-rangeslider/css/ion.rangeSlider.css');
-require('ion-rangeslider/css/ion.rangeSlider.skinFlat.css');
 !function($) {
     "use strict";
     $.fn.slider && $('[data-plugin="range-slider"]').slider({});
