@@ -157,6 +157,8 @@ a {
   margin-bottom: 8px;
   font-family: @font-secondary;
 }
+
+
 .wrapper {
   margin-top: 62px;
   padding-bottom: 62px;
@@ -165,6 +167,8 @@ a {
   left: 0;
   right: 0;
 }
+
+
 
 /* =============
    Helper clasess
@@ -492,7 +496,8 @@ a {
   }
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
-  background-color: fade(@custom,10%) !important;
+  background-color: @custom !important;
+  color: @white;
 }
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
   background-color: fade(@muted,10%);

@@ -48,10 +48,10 @@ File: Responsive
 
   .navbar-default {
     background-color: @white;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
+    box-shadow: 0 0px 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
   }
   .navbar-nav {
-    margin: 0;
+    margin: 0px;
     display: inline-block;
 
     li {
@@ -66,8 +66,8 @@ File: Responsive
     display: inline;
 
     ul {
-      li {
-        a {
+      li{
+        a{
           line-height: 46px;
         }
       }
@@ -88,26 +88,26 @@ File: Responsive
     .open {
       .dropdown-menu {
         background-color: @white;
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26);
         left: auto;
         position: absolute;
         right: 0;
 
-        li {
+        li{
           display: block;
         }
       }
     }
   }
   .content-page {
-    margin-left: 0 !important;
+    margin-left: 0px !important;
   }
   .footer {
-    left: 0 !important;
+    left: 0px !important;
   }
 
   .mobile-sidebar {
-    left: 0;
+    left: 0px;
   }
 
   .mobile-content {
@@ -157,13 +157,11 @@ File: Responsive
     width: 750px;
   }
 
-  .nav-tabs.nav-justified > li > a {
-    border-bottom: 2px solid darken(@lightdark, 5%);
+  .nav-tabs.nav-justified>li>a {
+    border-bottom: 2px solid darken(@lightdark,5%);
   }
 
-  .nav-tabs.nav-justified > .active > a,
-  .nav-tabs.nav-justified > .active > a:focus,
-  .nav-tabs.nav-justified > .active > a:hover {
+  .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
     border-bottom-color: @lightdark;
   }
 }
@@ -179,7 +177,6 @@ File: Responsive
     width: 1170px;
   }
 }
-
 @media (max-width: 419px) {
   .topbar-left {
     width: 70px !important;
